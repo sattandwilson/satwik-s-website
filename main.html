@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLACK-JACK GAME</title>
+    <link rel="shortcut icon" href="sat-b&w.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Black+Ops+One&family=Kanit:wght@200;700&family=Oswald:wght@200&display=swap" rel="stylesheet">
+</head>
+<body class="body-2">
+    <div class="header">
+        <button class="exit-btn" onclick="exIndex()">&lt;EXIT</button>
+    </div>
+    <div class="main-2-div">
+        <p class="show-sec" id="cards">CARDS:</p>
+        <p class="show-sec" id="points">POINTS:</p>
+        <div class="button-sec">
+            <button class="game-button" id="fst-spin" onclick="fSpin()">FIRST SPIN</button>
+            <button class="game-button" id="render" onclick="render()">RENDER</button>
+            <button class="game-button" id="get-card" onclick="getCard()">GET NEW CARD</button>
+            <button class="game-button" id="new-game" onclick="newOne()">NEW GAME</button>
+        </div>
+    </div>
+    <div class="bottom-div">
+        <h6>By <br> SATWIK PRODUCTION</h6>
+        <img src="sat-b&w.jpg" alt="img" class="satwik">
+    </div>
+    <div class="result" id="result">
+        <img class="cube-img" id="res-img" src="blackcube-3.jpg">
+        <div class="res-show">
+            <h1 class="greeting" id="greeting">YEHHEE! YOU WON THE BLACK JACK</h1>
+        </div>
+        <button id="ok" onclick="hide()">OK</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

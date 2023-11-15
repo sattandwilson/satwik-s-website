@@ -1,0 +1,211 @@
+.body-1 {
+    background-image: url(poker\ girl.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.main-div {
+    width: 100%;
+    height: 400px;
+    text-align: center;
+}
+h1 {
+    font-family: 'Abril Fatface';
+    font-weight: 500;
+    font-size: 38px;
+    color: rgb(255, 193, 36);
+    margin-top: 70px;
+}
+.tag-line {
+    font-size: 15px;
+    font-family: 'Kanit';
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+.start {
+    width: 240px;
+    height: 55px;
+    font-size: 22px;
+    font-family: 'Black Ops One';
+    font-weight: 400;
+    color: green;
+    background-color: goldenrod;
+    border: none;
+    border-radius: 10px;
+    margin-top: 200px;
+    cursor: pointer;
+    transition-duration: 1ms;
+}
+.start:hover {
+    box-shadow: 3px 3px 10px gold, -3px -3px 10px gold;
+    font-size: 23px;
+}
+.start:active {
+    width: 220px;
+    height: 52px;
+    font-size: 21px;
+    margin-top: 201.5px;
+}
+.bottom-div {
+    width: 100%;
+    height: 280px;
+    text-align: center;
+    padding-top: 30px;
+}
+h6 {
+    color: white;
+    font-family: 'Oswald';
+    margin: 0;
+    margin-top: 100px;
+    margin-bottom: 14px;
+    letter-spacing: 4px;
+    text-align: center;
+}
+.satwik {
+    width: 80px;
+    border-radius: 40px;
+    box-shadow: 1px 1px 10px rgb(65, 65, 65);
+}
+
+
+
+.body-2 {
+    background-image: url(poker.jpg);
+}
+.header {
+    width: 100%;
+    height: 100px;
+}
+.exit-btn {
+    width: 80px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Oswald';
+    letter-spacing: 4px;
+    font-weight: 700;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
+.exit-btn:hover {
+    background-color: rgb(226, 29, 29);
+    box-shadow: 1px 1px 10px rgb(73, 73, 73), -1px -1px 10px rgb(73, 73, 73);
+}
+.exit-btn:active {
+    width: 76px;
+    height: 38px;
+    margin-top: 1px;
+    margin-left: 2px;
+    font-size: 10px;
+}
+.main-2-div {
+    text-align: center;
+    width: 100%;
+    height: 500px;
+}
+.show-sec {
+    font-size: 26px;
+    color: gold;
+    font-family: 'Black Ops One';
+}
+#points {
+    padding-top: 48px;
+    margin-bottom: 80px;
+}
+.button-sec {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.game-button {
+    width: 160px;
+    height: 50px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    font-family: 'Kanit';
+    font-weight: 600;
+}
+.game-button:hover {
+    box-shadow: 1px 1px 10px rgb(109, 109, 109), -1px -1px 10px rgb(109, 109, 109);
+    font-size: 15px;
+}
+.game-button:active {
+    width: 154px;
+    height: 48px;
+    font-size: 13px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#fst-spin {
+    background-color: green;
+    color: gold;
+    letter-spacing: 1px;
+}
+#render {
+    background-color: gold;
+    color: green;
+}
+#get-card {
+    background-color: orangered;
+    color: whitesmoke;
+}
+#new-game {
+    background-color: aqua;
+    color: blue;
+}
+.result {
+    position: absolute;
+    width: 50%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    visibility: hidden;
+    transition: 0.2s;
+    transform: scale(0.001);
+    top: 150px;
+    left: 475px;
+    border-radius: 8px;
+}
+.cube-img {
+    width: 45%;
+}
+.greeting {
+    font-family: 'Black Ops One';
+    font-weight: 500;
+    color: gold;
+}
+#ok {
+    background-color: green;
+    color: white;
+    width: 100px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#ok:hover {
+    box-shadow: 1px 1px 10px rgb(83, 83, 83);
+    background-color: rgb(0, 146, 0);
+}
+#ok:active {
+    font-size: 11px;
+}
+.openup {
+    visibility: visible;
+    transition-duration: 0.2s;
+    transform: scale(1);
+}
+
